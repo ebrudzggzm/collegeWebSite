@@ -1,0 +1,37 @@
+.facilities {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  &-h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  &-p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px; 
+  }
+  &-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &-item {
+    flex-basis: 30%;
+    margin-bottom: 5%;
+    text-align: start;
+  }
+  &-image {
+    width: 100%;
+    border-radius: 20px;
+  }
+  &-h6{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+  }  
+}

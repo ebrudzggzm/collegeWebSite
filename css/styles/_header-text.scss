@@ -1,0 +1,39 @@
+
+
+.header-text {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+
+  &-h1 {
+    font-size: 62px;
+    font-weight: 400;    
+  }
+  &-p {
+    margin:10px 0 40px;
+    font-size: 13px;
+    color:#fff;
+  }
+  &-link{
+    text-decoration: none;
+    color:#fff;
+    border:1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+
+
+    &:hover{
+       background-color:#f44336;
+       border:1px solid #f44336; 
+       transition: 1s;
+    }    
+  }
+
+}
